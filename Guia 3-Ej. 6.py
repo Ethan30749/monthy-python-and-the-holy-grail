@@ -1,0 +1,6 @@
+r=float(input('introduzca el valor del radio menor: '))
+R=float(input('introduzca el valor del radio mayor: '))
+pi=float(3.1416)
+perimetro=2*pi*(R+r)
+area=pi*((R**2)-(r**2))
+print('el perímetro de su corona es: ',perimetro,'\ny su área es: ',area)
