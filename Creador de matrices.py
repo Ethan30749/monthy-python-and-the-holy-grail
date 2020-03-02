@@ -1,11 +1,11 @@
-def crear_matriz(m):
+def crear_matriz(M,N):
     matriz= []
-    M = int(input("ingrese cantidad de matrices deseadas: "))
-    N = int(input("ingrese cantidad de valores en cada columna: "))
     for i in range(M):
         matriz.append([])
         for j in range (N):
             value=int(input("ingrese valores: "))
             matriz[i].append(value)
     return matriz
-print(crear_matriz("m"))
+F=int(input("ingrese cantidad de filas: "))
+C=int(input("ingrese cantidad de columnas: "))
+print(crear_matriz(F,C))
