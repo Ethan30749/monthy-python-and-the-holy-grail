@@ -1,4 +1,3 @@
-
 matriz=[[2,4,6],[1,3,8],[2,6,5]]
 M = 3
 N = 3
@@ -10,5 +9,6 @@ def diagonales(m):
             if i == j:
                 valor=matriz[i][j]
                 matriz_diagonal.append(valor)
-                
-print(matriz_diagonal)
+    return matriz_diagonal
+
+print(diagonales(matriz))
